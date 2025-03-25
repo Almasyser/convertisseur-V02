@@ -1,0 +1,16 @@
+@use "./variables" as *;
+@mixin btn-format($state){
+  width: $btnWith;
+  height: $btnHeight;
+  @if ($state=="true"){
+    background-color: $bgcTrue;
+    color: $colorTrue;
+  } @else {
+    background-color: $bgcFalse;
+    color: $colorFalse;
+  }
+  text-align: center;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+
+}

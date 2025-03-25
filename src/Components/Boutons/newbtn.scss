@@ -1,0 +1,52 @@
+@use "../Style/variables" as *;
+@use "../Style/mixins" as *;
+
+.btn {
+  width: 32px;
+  height: $btnHeight;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    .btn-index {
+      background-color: $secondary-ligth;
+      color: $third;
+    }
+  }
+}
+
+.btn-on {
+  @include btn-format("true");
+}
+
+.btn-off {
+  @include btn-format("false");
+}
+
+.btn-index {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: none;
+  background-color: transparent;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.btn-pow {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  margin-top: 4px;
+}

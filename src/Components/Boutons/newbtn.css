@@ -1,0 +1,61 @@
+.btn {
+  width: 32px;
+  height: 152px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn:hover .btn-index {
+  background-color: rgba(146, 254, 146, 0.568627451);
+  color: #f3fed7;
+}
+
+.btn-on {
+  width: 28px;
+  height: 152px;
+  background-color: rgb(215, 253, 191);
+  color: rgb(35, 35, 35);
+  text-align: center;
+  line-height: 64px;
+  font-size: 32px;
+}
+
+.btn-off {
+  width: 28px;
+  height: 152px;
+  background-color: rgba(196, 248, 184, 0.546);
+  color: rgb(62, 73, 47);
+  text-align: center;
+  line-height: 64px;
+  font-size: 32px;
+}
+
+.btn-index {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: none;
+  background-color: transparent;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.btn-pow {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+/*# sourceMappingURL=newbtn.css.map */
